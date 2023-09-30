@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+}
+
+hr {
+    width: 100%;
+    color: black;
+}
+
+h3 {
+    color: crimson;
+}
+
+h2 {
+    color: slateblue;
+}
+
+p {
+    color: darkblue;
+}
+
+ul.language>li  {
+    list-style-type: none;
+}
