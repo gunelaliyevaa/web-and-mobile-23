@@ -1,86 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="description" content="This is the description of my HTML page">
-  <link rel="icon" type="image/x-icon" href="assets/icons/icong.ico">
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-  <title>Lovely Page</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the description of my HTML page">
+    <link rel="icon" type="image/x-icon" href="assets/icons/icong.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Lovely Page</title>
 </head>
-<body>
+<body class="personal-page">
 
 <h1>My first HTML page :D</h1>
 
 <table>
-  <tr>
-    <td><img src="assets/images/profile-picture.png" alt="Profile Picture" width="270" height="150"></td>
-    <td>
-      <h2>Gunel Aliyeva</h2>
-      <p id="position">Junior Software Developer</p>
-      <p id="email">galiyeva@ada.edu.az</p>
-      <p id="phone">+994 50 555 55 55</p>
-      <p id="address">Azerbaijan, Baku</p>
-    </td>
-  </tr>
+    <tr>
+        <td><img src="assets/images/profilepic.png" id="profile" alt="Profile Picture"></td>
+        <td>
+            <h2>Gunel Aliyeva</h2>
+            <p id="position">Junior Software Developer</p>
+            <p id="email">galiyeva@ada.edu.az</p>
+            <p id="phone">+994 50 555 55 55</p>
+            <p id="address">Azerbaijan, Baku</p>
+        </td>
+    </tr>
 </table>
 
 <h3>Summary</h3>
 <p>
-  Dedicated Junior Software Developer with a strong foundation in Java and a deep understanding of Object-Oriented
-  Programming (OOP) principles. Proficient in the Spring Framework and skilled in developing efficient RESTful APIs.
-  Committed to continuous growth and innovation, I am seeking opportunities to utilize my skills to make significant
-  contributions to innovative projects in professional settings.
+    Dedicated Junior Software Developer with a strong foundation in Java and a deep understanding of Object-Oriented
+    Programming (OOP) principles. Proficient in the Spring Framework and skilled in developing efficient RESTful APIs.
+    Committed to continuous growth and innovation, I am seeking opportunities to utilize my skills to make significant
+    contributions to innovative projects in professional settings.
 </p>
 
 <hr>
 
 <h3>Schedule </h3>
 <table border="3" bgcolor="#faebd7" style="color: midnightblue">
-  <tr>
-    <th bgcolor="#ffb6c1">Course</th>
-    <th bgcolor="#ffb6c1">Time</th>
-  </tr>
-  <tr>
-    <td>Web & Mobile 1</td>
-    <td>Tue, Thu, 8:30 - 9:45</td>
-  </tr>
-  <tr>
-    <td>Software Engineering</td>
-    <td>Mon, Wed, 2:30 - 3:45</td>
-  </tr>
+    <tr>
+        <th bgcolor="#ffb6c1">Course</th>
+        <th bgcolor="#ffb6c1">Time</th>
+    </tr>
+    <tr>
+        <td>Web & Mobile 1</td>
+        <td>Tue, Thu, 8:30 - 9:45</td>
+    </tr>
+    <tr>
+        <td>Software Engineering</td>
+        <td>Mon, Wed, 2:30 - 3:45</td>
+    </tr>
 </table>
 
 <hr>
 
 <h3>Languages</h3>
 <ul type="circle" class="language">
-  <li>Japanese</li>
-  <li>German</li>
-  <li>English</li>
-  <ul>
-    <li>American</li>
-    <li>British</li>
-    <li>Australian</li>
-  </ul>
-  <li>Russian</li>
-  <li>Chinese</li>
+    <li>Japanese</li>
+    <li>German</li>
+    <li>English</li>
+    <ul>
+        <li>American</li>
+        <li>British</li>
+        <li>Australian</li>
+    </ul>
+    <li>Russian</li>
+    <li>Chinese</li>
 </ul>
 
 <hr>
 
 <h3>Interests</h3>
 <ol>
-  <li>Astronomy</li>
-  <li>Music</li>
-  <li>Artificial Intelligence</li>
+    <li>Astronomy</li>
+    <li>Music</li>
+    <li>Artificial Intelligence</li>
 </ol>
 
 <hr/>
 
 <p>Visit my <a href="https://www.linkedin.com/in/gunel-aliyevaa/" target="_blank">LinkedIn</a> page</p>
-<ul>
-  <li><a href="../web-and-mobile-23/public/about.html" target="_blank">About Me</a></li>
-  <li><a href="../web-and-mobile-23/public/questionnaire.html" target="_blank">Questionnaire</a></li>
+
+<p>Here is my resume:</p>
+<iframe src="assets/pdf/Gunel_Aliyeva_-_Java_Backend_Developer_.pdf" width="500px" height="500px"></iframe>
+
+
+<ul id="navigation">
+    <li><a href="../web-and-mobile-23/public/about.html" target="_blank">About Me</a></li>
+    <li><a href="../web-and-mobile-23/public/education.html" target="_blank">Education</a></li>
+    <li><a href="../web-and-mobile-23/public/questionnaire.html" target="_blank">Questionnaire</a></li>
+    <li><a href="../web-and-mobile-23/public/contact.html" target="_blank">Contact Me</a></li>
+</ul>
+</body>
+</html>
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="This is the description of my HTML page">
+    <link rel="icon" type="image/x-icon" href="assets/icons/icong.ico">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Personal Page</title>
+</head>
+<body class="personal-page">
+
+<h1>Gunel Aliyeva</h1>
+<h2 id="position">Junior Software Developer</h2>
+
+<table style="margin: auto auto auto 0 ">
+    <tr>
+        <td><img src="assets/images/profilepic.png" id="profile" alt="Profile Picture"></td>
+        <td>
+            <p id="email" class="cred">E-mail: galiyeva@ada.edu.az</p>
+            <p id="phone" class="cred">Phone: +994 50 555 55 55</p>
+            <p id="address" class="cred">Address: Azerbaijan, Baku</p>
+        </td>
+    </tr>
+</table>
+
+<h3>[summary]</h3>
+<p>
+    Dedicated Junior Software Developer with a strong foundation in Java and a deep understanding of Object-Oriented
+    Programming (OOP) principles. Proficient in the Spring Framework and skilled in developing efficient RESTful APIs.
+    Committed to continuous growth and innovation, I am seeking opportunities to utilize my skills to make significant
+    contributions to innovative projects in professional settings.
+</p>
+
+<hr>
+
+<h3>[schedule]</h3>
+<table border="3" bgcolor="#efe3fa" style="color: midnightblue">
+    <tr>
+        <th>Course</th>
+        <th>Time</th>
+    </tr>
+    <tr>
+        <td>Web & Mobile 1</td>
+        <td>Tue, Thu, 8:30 - 9:45</td>
+    </tr>
+    <tr>
+        <td>Software Engineering</td>
+        <td>Mon, Wed, 2:30 - 3:45</td>
+    </tr>
+</table>
+
+<hr>
+
+<h3>[languages]</h3>
+<ul type="circle" class="language">
+    <li>Japanese</li>
+    <li>German</li>
+    <li>English
+        <ul>
+            <li>American</li>
+            <li>British</li>
+        </ul>
+    </li>
+    <li>Russian</li>
+    <li>Chinese</li>
+</ul>
+
+<hr>
+
+<h3>[interests]</h3>
+<ol>
+    <li>Astronomy</li>
+    <li>Music</li>
+    <li>Artificial Intelligence</li>
+</ol>
+
+<hr>
+
+<p>Visit my <a href="https://www.linkedin.com/in/gunel-aliyevaa/" target="_blank">LinkedIn</a> page</p>
+
+<p>Here is my resume:</p>
+<iframe src="assets/pdf/Gunel_Aliyeva_-_Java_Backend_Developer_.pdf" width="500px" height="500px"></iframe>
+
+<ul id="navigation">
+    <li><a href="../web-and-mobile-23/public/about.html" target="_blank">About Me</a></li>
+    <li><a href="../web-and-mobile-23/public/education.html" target="_blank">Education</a></li>
+    <li><a href="../web-and-mobile-23/public/questionnaire.html" target="_blank">Questionnaire</a></li>
+    <li><a href="../web-and-mobile-23/public/contact.html" target="_blank">Contact Me</a></li>
 </ul>
 </body>
 </html>

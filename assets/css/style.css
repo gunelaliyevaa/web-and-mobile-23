@@ -1,24 +1,90 @@
-body {
-    background-color: bisque;
+.personal-page {
+    background-color: #0B192F;
+    font-family: "Charter", sans-serif;
+    font-size: 20px;
+    color: #8892b0;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#profile {
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+}
+
+#profile:hover {
+    transform: scale(110%);
+}
+
+table {
+    margin: 0 auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 20px;
+    font-size: 16px;
+}
+
+th {
+    padding: 20px;
+    font-style: italic;
+    background-color: #ceadf0;
 }
 
 hr {
-    width: 100%;
-    color: black;
+    margin: 15px auto 15px auto;
+    border-bottom: transparent;
+    border-top: 2px dashed #edf0f7;
+    width: 85%;
 }
 
-h3 {
-    color: crimson;
+h1 {
+    text-align: center;
+    font-size: 40px;
 }
 
 h2 {
-    color: slateblue;
+    text-align: center;
+    font-size: 30px;
+}
+
+h3 {
+
 }
 
 p {
-    color: darkblue;
+    text-align: justify;
+    margin: 10px auto;
 }
 
-ul.language>li  {
+p, li, h1, h2, h3 {
+    text-shadow: 2px 2px 4px #10131c;
+}
+
+li {
+    margin: 5px auto;
+}
+
+ul.language > li {
+    list-style-type: disc;
+}
+
+iframe {
+    width: 50%;
+    height: 500px;
+    border: none;
+}
+
+ul#navigation {
     list-style-type: none;
+    padding: 0;
+}
+
+ul#navigation li {
+    margin-bottom: 10px;
 }
