@@ -4,19 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="664e5309-16cf-4a2d-a25a-5b986a8b32c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/pdf/Gunel_Aliyeva_-_Java_Backend_Developer_.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/education.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="664e5309-16cf-4a2d-a25a-5b986a8b32c3" name="Changes" comment="index.html file updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/profile-picture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/questionnaire.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/questionnaire.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/skills.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web-and-mobile-23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web-and-mobile-23.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +45,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
@@ -77,11 +67,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696102513766</updated>
-      <workItem from="1696103958522" duration="17923000" />
+      <workItem from="1696103958522" duration="18397000" />
     </task>
+    <task id="LOCAL-00001" summary="index.html file updated">
+      <option name="closed" value="true" />
+      <created>1696176789685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696176789685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="index.html file updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="index.html file updated" />
   </component>
 </project>
