@@ -30,7 +30,8 @@ div {
     position: fixed;
     top: 0;
     left: 0;
-    padding: 0;
+    padding: 20px;
+    margin-bottom: 10px;
     background-color: #88d1c0;
     width: 100vw;
     display: flex;
@@ -39,6 +40,7 @@ div {
 }
 
 #navigation a {
+
     margin: 0;
     display: inline;
     text-decoration: none;
@@ -107,11 +109,6 @@ h3 {
 
 p, li, h1, h2, h3 {
     text-shadow: 2px 2px 4px #10131c;
-}
-
-li {
-    margin: 5px auto;
-    list-style-type: disc;
 }
 
 
