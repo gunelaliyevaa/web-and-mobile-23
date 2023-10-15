@@ -1,5 +1,5 @@
 body {
-    background: url(https://live.staticflickr.com/65535/52211883799_abf0e1909c_6k.jpg) no-repeat center center;
+    background: url(https://webbtelescope.org/files/live/sites/webb/files/home/news/first-images/gallery/_images/ero-adbox-gallery-highlight-stephansQuintet-2400x1200.jpg?t=tn4800) no-repeat center center;
     background-size: cover;
     font-family: 'Lora', serif;
     padding: 0;
@@ -70,3 +70,35 @@ img {
     font-size: 12px;
     margin: 15px;
 }
+
+#info-button p {
+    margin: 0;
+    color: #ffffff;
+    font-size: 12px;
+}
+
+#icons i {
+    color: white;
+    background-color: dimgrey;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#info-button {
+    background: url(https://wp1.themexlab.com/wp/cards/wp-content/themes/cards/img/bg-btn.png) no-repeat center center darkred;
+    transition: 0.6s;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#info-button:hover {
+    background-color: midnightblue;
+}
+
+#icons i:hover
