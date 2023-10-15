@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="This is the description of my HTML page">
     <link rel="icon" type="image/x-icon" href="assets/icons/icong.ico">
     <link rel="stylesheet" type="text/css" href="assets/css/resumestyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+          integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Personal Page</title>
 </head>
 <body class="personal-page">
@@ -14,22 +17,25 @@
         <div id="navigation">
             <nav>
                 <ul id="nav-links">
-                    <li><a href="../web-and-mobile-23/public/about.html" target="_blank">About Me</a></li>
-                    <li><a href="../web-and-mobile-23/public/questionnaire.html" target="_blank">Questionnaire</a></li>
-                    <li><a href="../web-and-mobile-23/public/contact.html" target="_blank">Contact Me</a></li>
-                    <li><a href="../web-and-mobile-23/public/card.html" target="_blank">Digital card</a></li>
+                    <a href="../web-and-mobile-23/public/about.html" target="_blank"><i class="fas fa-user"></i>
+                        About Me</a>
+                    <a href="../web-and-mobile-23/public/card.html" target="_blank"><i class="fas fa-id-card"></i>
+                        Digital card</a>
+                    <a href="../web-and-mobile-23/public/contact.html" target="_blank"><i
+                            class="fas fa-envelope"></i> Contact Me</a>
+                    <a href="../web-and-mobile-23/public/questionnaire.html" target="_blank"><i
+                            class="fas fa-question-circle"></i> Questionnaire</a>
                 </ul>
             </nav>
         </div>
 
         <div id="header">
             <h1>Gunel Aliyeva</h1>
-            <h2 id="position">Junior Software Developer</h2>
+            <h2>Junior Software Developer</h2>
         </div>
 
-
         <div class="profile-container">
-            <img src="assets/images/card-profile.png" id="profile" alt="Profile Picture">
+            <img src="assets/images/card-profile.png" alt="Profile Picture">
             <div class="info">
                 <p id="email" class="cred">E-mail: galiyeva@ada.edu.az</p>
                 <p id="phone" class="cred">Phone: +994 50 500 00 00</p>
@@ -37,59 +43,70 @@
             </div>
         </div>
 
+        <div id="summary">
+            <h3>[summary]</h3>
+            <hr>
+            <p>
+                Dedicated Junior Software Developer with a strong foundation in Java and a deep understanding of
+                Object-Oriented
+                Programming (OOP) principles. Proficient in the Spring Framework and skilled in developing efficient
+                RESTful
+                APIs.
+                Committed to continuous growth and innovation, I am seeking opportunities to utilize my skills to make
+                significant
+                contributions to innovative projects in professional settings.
+            </p>
+        </div>
 
-        <h3>[summary]</h3>
-        <p>
-            Dedicated Junior Software Developer with a strong foundation in Java and a deep understanding of
-            Object-Oriented
-            Programming (OOP) principles. Proficient in the Spring Framework and skilled in developing efficient RESTful
-            APIs.
-            Committed to continuous growth and innovation, I am seeking opportunities to utilize my skills to make
-            significant
-            contributions to innovative projects in professional settings.
-        </p>
+        <div id="education">
+            <h3>[education]</h3>
+            <hr>
+            <p id="major">Bachelor of Science in Computer Science</p>
+            <p id="school">ADA University</p>
+        </div>
 
-        <hr>
+        <div id="skills">
 
-        <h3>[schedule]</h3>
-        <table style="color: midnightblue">
-            <tr>
-                <th>Course</th>
-                <th>Time</th>
-            </tr>
-            <tr>
-                <td>Web & Mobile 1</td>
-                <td>Tue, Thu, 8:30 - 9:45</td>
-            </tr>
-            <tr>
-                <td>Software Engineering</td>
-                <td>Mon, Wed, 2:30 - 3:45</td>
-            </tr>
-        </table>
+            <div id="core-skills">
+                <h3>[core skills]</h3>
+                <hr>
+                <ul>
+                    <li>Java</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Data Structures & Algorithms</li>
+                    <li>Spring Framework</li>
+                    <li>Microservices</li>
+                    <li>Hibernate</li>
+                    <li>SQL(PostgreSQL)</li>
+                    <li>Git & GitHub</li>
+                    <li>CI/CD</li>
+                    <li>SOAP Webservices</li>
+                </ul>
+            </div>
 
-        <hr>
+            <div id="languages">
+                <h3>[languages]</h3>
+                <hr>
+                <ul>
+                    <li>Azerbaijani</li>
+                    <li>German</li>
+                    <li>English</li>
+                    <li>Russian</li>
+                    <li>Korean</li>
+                </ul>
+            </div>
 
-        <h3>[languages]</h3>
-        <ul class="language">
-            <li>Azerbaijani</li>
-            <li>German</li>
-            <li>English</li>
-            <li>Russian</li>
-            <li>Korean</li>
-        </ul>
+        </div>
 
-        <hr>
-
-        <h3>[interests]</h3>
-        <ol>
-            <li>Astronomy</li>
-            <li>Music</li>
-            <li>Artificial Intelligence</li>
-        </ol>
-
-        <hr>
-
-        <p>Visit my <a href="https://www.linkedin.com/in/gunel-aliyevaa/" target="_blank">LinkedIn</a> page</p>
+        <div id="interests">
+            <h3>[interests]</h3>
+            <hr>
+            <ol>
+                <li>Astronomy</li>
+                <li>Music</li>
+                <li>Artificial Intelligence</li>
+            </ol>
+        </div>
     </section>
 </main>
 </body>
