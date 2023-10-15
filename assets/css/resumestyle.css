@@ -1,50 +1,93 @@
 .personal-page {
     background-color: #0B192F;
-    font-family: "Charter", sans-serif;
     font-size: 20px;
     color: #8892b0;
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
+    font-family: 'Times New Roman', sans-serif;
+    padding: 0;
+    line-height: 1.4;
 }
 
-#profile {
-    border-radius: 100px;
+main {
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 90%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+#navigation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 0;
+    background-color: #88d1c0;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navigation a {
+    margin: 0;
+    display: inline;
+    text-decoration: none;
+    color: #0B192F;
+    padding: 10px 20px;
+    transition: font-size 0.3s;
+}
+
+#navigation a:hover {
+    color: #8892b0;
+    font-size: 1.2em;
+}
+
+img {
     width: 200px;
     height: 200px;
-    max-width: 200px;
+    border: 2px solid #dddddd;
+    border-radius: 50%;
+    margin: 20px;
+    padding: 5px;
+    transition: transform 0.3s;
 }
 
-#profile:hover {
-    transform: scale(110%);
+.profile-container {
+    display: flex;
+    margin: auto auto auto 0;
 }
 
-table {
-    margin: 0 auto;
-    width: 50%;
-    border-collapse: collapse;
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: auto;
 }
 
-td {
-    padding: 20px;
-    font-size: 16px;
-}
-
-th {
-    padding: 20px;
-    font-style: italic;
-    background-color: #ceadf0;
+.cred {
+    margin: 5px 0;
 }
 
 hr {
-    margin: 15px auto 15px auto;
-    border-bottom: transparent;
-    border-top: 2px dashed #edf0f7;
-    width: 85%;
+    margin: 0;
+    width: 88.5%;
+    display: inline-block;
+    color: #88d1c0;
 }
 
 h1 {
     text-align: center;
+    margin: 10px 0;
     font-size: 40px;
 }
 
@@ -54,12 +97,12 @@ h2 {
 }
 
 h3 {
-
+    display: inline-block;
 }
 
-p {
+#summary p {
     text-align: justify;
-    margin: 10px auto;
+    margin: 0 10px;
 }
 
 p, li, h1, h2, h3 {
@@ -68,23 +111,7 @@ p, li, h1, h2, h3 {
 
 li {
     margin: 5px auto;
-}
-
-ul.language > li {
     list-style-type: disc;
 }
 
-iframe {
-    width: 50%;
-    height: 500px;
-    border: none;
-}
 
-ul#navigation {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul#navigation li {
-    margin-bottom: 10px;
-}
